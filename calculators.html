@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interactive Calculators | Calculate Clearly</title><meta name="description" content="Free browser-based loan payment calculator and investment growth illustrator — no data leaves your device.">
+<meta property="og:title" content="Interactive Calculators"><meta property="og:description" content="Free browser-based loan payment calculator and investment growth illustrator — no data leaves your device."><meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><div class="nav"><a class="logo" href="index.html">Calculate <span>Clearly</span></a><nav><a href="index.html">Home</a><a href="index.html#guides">Guides</a><a href="calculators.html">Interactive Tools</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></div></header>
+<main><div class="wrap"><article><h1>Interactive Tools</h1><p>Two small working calculators that run entirely in your browser — nothing you enter is sent anywhere. They are the companion tools for our <a href="articles/how-loan-amortization-works.html">amortization guide</a> and <a href="articles/compound-interest-and-investment-growth.html">compound interest guide</a>.</p>
+<h2>Loan payment calculator</h2>
+<label for="lp">Loan amount ($)</label><input id="lp" type="number" value="20000">
+<label for="lr">Annual interest rate (%)</label><input id="lr" type="number" step="0.1" value="7">
+<label for="ln">Term (months)</label><input id="ln" type="number" value="60">
+<p><button class="btn" onclick="calcLoan()">Calculate payment</button></p><div class="result" id="loanResult">Enter your numbers and calculate.</div>
+<h2>Investment growth illustrator</h2>
+<label for="gp">Starting amount ($)</label><input id="gp" type="number" value="5000">
+<label for="gc">Monthly contribution ($)</label><input id="gc" type="number" value="200">
+<label for="gr">Assumed annual return (%)</label><input id="gr" type="number" step="0.1" value="7">
+<label for="gy">Years</label><input id="gy" type="number" value="30">
+<p><button class="btn" onclick="calcGrowth()">Illustrate growth</button></p><div class="result" id="growthResult">Enter your numbers and illustrate.</div>
+<p class="meta">Illustrations only, using a steady assumed return. Real investment returns vary and are not guaranteed.</p>
+</article></div></main>
+<footer><div class="wrap"><p><strong>Calculate Clearly</strong> — plain-English guides to everyday calculations.</p><p><a href="about.html">About</a> · <a href="privacy.html">Privacy Policy</a> · <a href="contact.html">Contact</a></p><p>Educational content only. This site does not provide financial, tax, medical, or legal advice.</p></div></footer>
+<script src="script.js"></script></body></html>
