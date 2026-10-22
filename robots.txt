@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://toolshorizon1-byte.github.io/calculate-clearly/sitemap.xml
